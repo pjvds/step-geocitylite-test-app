@@ -2,3 +2,6 @@ box: wercker/default
 build:
   steps:
     - pjvds/install-geocitylite
+    - script:
+        name: Print /usr/share
+        code: cd /usr/share && ls -a

@@ -6,3 +6,4 @@ build:
         name: Print /usr/share
         code: |-
           cd /usr/share && ls -a
+          success "finished"

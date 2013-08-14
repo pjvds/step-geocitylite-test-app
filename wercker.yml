@@ -1,3 +1,4 @@
+box: wercker/default
 build:
   steps:
     - pjvds/install-geocitylite

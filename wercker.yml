@@ -2,6 +2,3 @@ box: wercker/default
 build:
   steps:
     - pjvds/install-geocitylite
-    - script:
-        name: Fail always
-        code: exit 1
